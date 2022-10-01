@@ -12,8 +12,11 @@ Python Test PlayGround, not PTPTN
   - [Checking your Virtual Environment](#checking-your-virtual-environment)
   - [Requirement File!](#requirement-file)
   - [Running The Tests...](#running-the-tests)
+    - [Deactivating Virtual Environment](#deactivating-virtual-environment)
   - [Resources](#resources)
     - [Google Cloud Platform, Functions Framework](#google-cloud-platform-functions-framework)
+    - [Pytest](#pytest)
+    - [Venv](#venv)
 
 ## Purpose
 
@@ -120,9 +123,26 @@ Then just run this in the terminal from the project root path for example:
 ```
 pytest
 ```
+### Deactivating Virtual Environment
+
+Simply run this in your terminal
+
+```
+deactivate
+```
+
+and... done, you're back. Can see that (env) is finally gone :)
 
 ## Resources
 ### Google Cloud Platform, Functions Framework
 
 Documents:  https://cloud.google.com/functions/docs/functions-framework
 Code: https://github.com/GoogleCloudPlatform/functions-framework-python
+
+### Pytest
+
+Documents: https://docs.pytest.org/
+
+### Venv
+
+Documents: https://docs.python.org/3/library/venv.html

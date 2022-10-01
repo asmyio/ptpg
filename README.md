@@ -5,6 +5,7 @@ Python Test PlayGround, not PTPTN
   - [Purpose](#purpose)
   - [Objective](#objective)
   - [Requirements](#requirements)
+  - [Test Strategy](#test-strategy)
   - [Running The Tests...](#running-the-tests)
   - [Resources](#resources)
     - [Google Cloud Platform, Functions Framework](#google-cloud-platform-functions-framework)
@@ -13,7 +14,7 @@ Python Test PlayGround, not PTPTN
 
 Serves as self note and guidance for implementing Unit Test and Integration Test for Python Scripts or Projects involves Google Cloud Platform. 
 
-The idea, is to produce a robust testing for professionals like me.
+The idea, is to produce robust testing example for professionals like me.
 
 ## Objective
 
@@ -25,6 +26,11 @@ The idea, is to produce a robust testing for professionals like me.
 ## Requirements
 * Python 3.x
 * pytest
+
+## Test Strategy
+
+* Storage Triggered Functions
+  * Test if it gets triggered
 
 
 ## Running The Tests...

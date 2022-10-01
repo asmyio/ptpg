@@ -6,6 +6,7 @@ Python Test PlayGround, not PTPTN
   - [Objective](#objective)
   - [Requirements](#requirements)
   - [Test Strategy](#test-strategy)
+  - [Setting Up Virtual Environment](#setting-up-virtual-environment)
   - [Running The Tests...](#running-the-tests)
   - [Resources](#resources)
     - [Google Cloud Platform, Functions Framework](#google-cloud-platform-functions-framework)
@@ -24,14 +25,27 @@ The idea, is to produce robust testing example for professionals like me.
 4) Testable Functions
 
 ## Requirements
+
 * Python 3.x
 * pytest
+* virtualenv
 
 ## Test Strategy
 
 * Storage Triggered Functions
   * Test if it gets triggered
 
+## Setting Up Virtual Environment
+
+Inside the project, run this:
+```
+python -m venv env
+```
+
+Explanation:
+```
+python<version> -m venv <virtual-environment-name>
+```
 
 ## Running The Tests...
 

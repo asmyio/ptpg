@@ -7,6 +7,8 @@ Python Test PlayGround, not PTPTN
   - [Requirements](#requirements)
   - [Test Strategy](#test-strategy)
   - [Setting Up Virtual Environment](#setting-up-virtual-environment)
+      - [A) Mac](#a-mac)
+      - [B) Windows](#b-windows)
   - [Running The Tests...](#running-the-tests)
   - [Resources](#resources)
     - [Google Cloud Platform, Functions Framework](#google-cloud-platform-functions-framework)
@@ -37,15 +39,34 @@ The idea, is to produce robust testing example for professionals like me.
 
 ## Setting Up Virtual Environment
 
-Inside the project, run this:
+Inside the project, run this to generate a couple of files:
+
 ```
 python -m venv env
 ```
-
 Explanation:
 ```
 python<version> -m venv <virtual-environment-name>
 ```
+
+then, from the root of your project, based on your OS:
+
+#### A) Mac
+```
+source env/bin/activate
+```
+#### B) Windows
+
+CMD:
+```
+ env/Scripts/activate.bat
+ ```
+ Powershell:
+ ```
+ env/Scripts/Activate.ps1
+ ```
+
+this activates the environment as you can see at the left of your terminal with (env)
 
 ## Running The Tests...
 

@@ -9,6 +9,8 @@ Python Test PlayGround, not PTPTN
   - [Setting Up Virtual Environment](#setting-up-virtual-environment)
       - [A) Mac](#a-mac)
       - [B) Windows](#b-windows)
+  - [Checking your Virtual Environment](#checking-your-virtual-environment)
+  - [Requirement File!](#requirement-file)
   - [Running The Tests...](#running-the-tests)
   - [Resources](#resources)
     - [Google Cloud Platform, Functions Framework](#google-cloud-platform-functions-framework)
@@ -67,6 +69,34 @@ CMD:
  ```
 
 this activates the environment as you can see at the left of your terminal with (env)
+
+## Checking your Virtual Environment
+
+```
+pip list
+```
+
+You'll see the list of packages that are installed within the virtual environment, if something's missing (as it is supposed to be*), then you'd better move on to the next step, requirement file :)
+
+*we're in a virtual environment, of course the previous libraries you've already have is not a part of them :)
+
+## Requirement File!
+
+Create a requirement file like dev_requirements.txt or requirements_dev.txt however you like. Why? Because we don't wanna mix things when deploying to Google Cloud Functions via Serverless for example, and put the lists of things that the script/program requires in order for it to run.
+
+Just for reference, here is what requirements_dev.txt contains:
+
+```
+numpy
+pandas
+json
+```
+
+and save it as inside the root folder of your application, once you're done. Run this:
+
+```
+pip3 install -r requirements_dev.txt
+```
 
 ## Running The Tests...
 

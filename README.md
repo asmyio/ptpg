@@ -68,7 +68,17 @@ CMD:
  env/Scripts/Activate.ps1
  ```
 
-this activates the environment as you can see at the left of your terminal with (env)
+this activates the environment as you can see at the left of your terminal with (env).
+
+REMINDER: DON'T FORGET TO PUT YOUR ENV DIRECTORY IN .gitignore file
+
+just open up .gitignore file and add 
+
+```
+env/
+```
+
+that is it! It can be easily replicated in any new environment anyway ¯\_(ツ)_/¯
 
 ## Checking your Virtual Environment
 

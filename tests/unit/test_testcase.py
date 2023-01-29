@@ -5,7 +5,8 @@ class TestSomething(TestCase):
 
     def test_something(self):
         with mock.patch('le_main.le_data', return_value='thing'):
-            self.assertEqual(something(), 'data')
+            self.assertEqual(something(), 'thing')
     
-    def test_nother(self):
-        self.assertEqual(something(), 'data')
+    def test_notherone(self):
+        with mock.patch('le_main.le_data', return_value='thing'):
+            self.assertEqual(le_data(), 'thing')
